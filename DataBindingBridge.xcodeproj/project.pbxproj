@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		97CA78DB16724CDA00DF1E3A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97CA78DA16724CDA00DF1E3A /* main.cpp */; };
 		97CA78DD16724CDA00DF1E3A /* DataBindingBridge.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 97CA78DC16724CDA00DF1E3A /* DataBindingBridge.1 */; };
+		97CA78E516724D8600DF1E3A /* ClassA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97CA78E416724D8600DF1E3A /* ClassA.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,11 @@
 		97CA78D616724CDA00DF1E3A /* DataBindingBridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataBindingBridge; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CA78DA16724CDA00DF1E3A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		97CA78DC16724CDA00DF1E3A /* DataBindingBridge.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DataBindingBridge.1; sourceTree = "<group>"; };
+		97CA78E316724D1800DF1E3A /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		97CA78E416724D8600DF1E3A /* ClassA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClassA.cpp; sourceTree = "<group>"; };
+		97CA78E616724E1C00DF1E3A /* IBindingInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBindingInterface.h; sourceTree = "<group>"; };
+		97CA78E716724E9E00DF1E3A /* BindingBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingBridge.h; sourceTree = "<group>"; };
+		97CA78E81672506500DF1E3A /* ClassABridgeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassABridgeInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				97CA78DA16724CDA00DF1E3A /* main.cpp */,
+				97CA78E81672506500DF1E3A /* ClassABridgeInterface.h */,
 				97CA78DC16724CDA00DF1E3A /* DataBindingBridge.1 */,
+				97CA78E316724D1800DF1E3A /* ClassA.h */,
+				97CA78E416724D8600DF1E3A /* ClassA.cpp */,
+				97CA78E616724E1C00DF1E3A /* IBindingInterface.h */,
+				97CA78E716724E9E00DF1E3A /* BindingBridge.h */,
 			);
 			path = DataBindingBridge;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CA78DB16724CDA00DF1E3A /* main.cpp in Sources */,
+				97CA78E516724D8600DF1E3A /* ClassA.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
